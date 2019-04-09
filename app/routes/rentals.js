@@ -1,8 +1,8 @@
 import Route from '@ember/routing/route';
 
 export default Route.extend({
-  model: function() {
-  // model() { //or we can use the ES6 shorthand
+  // model: function() { // We can use the old way to run functions or
+  model() { //We can use the ES6 shorthand
     return [{
       id: 'grand-old-mansion',
       title: 'Grand Old Mansion',
